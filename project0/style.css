@@ -1,0 +1,36 @@
+h3 {
+  font-family: Arial, sans-serif;
+  color: #2a7dd1;
+}
+
+.container {
+  background-color: #737a7d;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.list_home{
+  display: inline;
+  padding: 20px;
+}
+
+table {
+  border: 1px solid black;
+  text-align: center;
+}
+a{
+  width:10px;
+  height: 20px;
+}
+.project_link{
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: auto;
+}
+.git_logo {
+  max-width: 100%;
+  max-height: 100%;
+
+}
