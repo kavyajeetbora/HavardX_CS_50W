@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> My Portfolio | Request a project idea </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <h3>Request a project Idea</h3>
+    <p>Request a project idea, and we will try to make the application for you</p>
+
+    <div class="form">
+      <p>Name:</p>
+      <input name="name" type="text" placeholder="Type your name">
+      <p>Email:</p>
+      <input name="email" type="text" placeholder="Type your email id">
+    </div>
+
+    <div class="form">
+      Sex:
+      <input name="sex" type="radio" value="Male">Male</input>
+      <input name="sex" type="radio" value="Female">Female</input>
+    </div>
+
+    <div class="form">
+      <p>Project title</p>
+      <input type="text" name="project_title" placeholder="Project Title">
+      <p>Project Description:</p>
+      <textarea name="description" placeholder="type your project idea" rows="5" cols="50"></textarea>
+    </div>
+    <div>
+      <p>Enter the Delhi NCR region you are staying in:</p>
+      <input name="place" list="delhi_ncr_areas" placeholder="Choose the Delhi NCR region">
+      <datalist id="delhi_ncr_areas">
+        <option value="Faridabad">
+        <option valie="Gurugram">
+        <option value="Delhi">
+        <option value="Ghaziabad">
+        <option value="Noida">
+      </datalist>
+    </div>
+
+    <div>
+      <button type="submit" value="submit">Submit</button>
+    </div>
+  </body>
+</html>

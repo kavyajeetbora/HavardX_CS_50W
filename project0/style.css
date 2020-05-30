@@ -1,10 +1,10 @@
 h3 {
   font-family: Arial, sans-serif;
   color: #2a7dd1;
+  margin:auto;
 }
 
 .container {
-  background-color: #737a7d;
   padding: 20px;
   margin: 20px;
   text-align: center;
@@ -33,4 +33,9 @@ a{
   max-width: 100%;
   max-height: 100%;
 
+}
+
+div {
+  margin:auto;
+  padding:2px;
 }
