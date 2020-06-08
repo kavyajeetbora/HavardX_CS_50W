@@ -1,0 +1,9 @@
+<!DOCTYPE>
+<html>
+  <head></head>
+  <body>
+    <h1>First Page</h1>
+    <p>Flask detects the local file changes, but won't push the changes to your browser. Flask and the browser are fully de-coupled, Flask just stands there and waits for requests, it only responds if it receives a request. After return 'Hello', the connection between the browser and Flask is going to be disconnected.</p>
+    <a href="{{ url_for('more') }}">See more...</a>
+  </body>
+</html>

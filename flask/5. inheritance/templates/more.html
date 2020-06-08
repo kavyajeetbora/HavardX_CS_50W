@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+  Second Page
+{% endblock %}
+
+{% block body %}
+    <p>I don't think the browser is supposed to reload the information by itself - you have to refresh the page for anything new to show up, unless you have built that functionality in with some sort of backend application.</p>
+    <a href="{{ url_for('index') }}">Go back</a>
+{% endblock %}
